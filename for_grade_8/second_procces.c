@@ -22,7 +22,7 @@ const char* name_second = "second_pipe.fifo";
 
 const int mas_size = 5000;
 int main(int argc, char *argv[]) {
-    char str_buf[mas_size] = {0};
+    char str_buf[mas_size];
     char answer[5];
     
     int first_channel, second_channel, result;
